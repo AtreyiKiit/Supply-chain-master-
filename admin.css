@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    position: absolute;
+    width: 556px;
+    height: 87px;
+    left: 473px;
+    top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 15px;
+}
+.img{
+    position: absolute;
+    width: 896px;
+    height: 708px;
+    left: 27px;
+    top: 180px;
+    background: url(admin.jpg);
+    background-repeat: no-repeat;
+}
+.box-1{
+    position: absolute;
+    width: 346px;
+    height: 61px;
+    left: 925px;
+    top: 233px;
+
+    background: hsl(225, 100%, 94%);
+    -webkit-border-radius: 47px;
+    -moz-border-radius: 47px;
+    border-radius: 47px;
+}
+.box-2{
+    position: absolute;
+    width: 346px;
+    height: 61px;
+    left: 925px;
+    top: 324px;
+
+    background:hsl(225, 100%, 94%);
+    -webkit-border-radius: 47px;
+    -moz-border-radius: 47px;
+    border-radius: 47px;
+}
+.box-3{
+    position: absolute;
+    width: 346px;
+    height: 61px;
+    left: 925px;
+    top: 403px;
+
+    background: hsl(225, 100%, 94%);
+    -webkit-border-radius: 47px;
+    -moz-border-radius: 47px;
+    border-radius: 47px;
+}
+/* .box-4{
+    position: absolute;
+    width: 346px;
+    height: 61px;
+    left: 925px;
+    top: 487px;
+    background: hsl(225, 100%, 94%);
+    -webkit-border-radius: 47px;
+    -moz-border-radius: 47px;
+    border-radius: 47px;
+} */
+.btn {
+    line-height: 60px;
+    height: 61px;
+    width: 346px;
+    text-align: center;
+    
+}
+span {
+    font-size: 1.7rem;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+span:hover{
+    color: hsl(245, 75%, 52%);
+}
+a{
+    text-decoration: none;
+}
